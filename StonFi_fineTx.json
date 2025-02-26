@@ -1,0 +1,1018 @@
+{
+  "transaction": {
+    "hash": "7141841629ef8d804d8ec41eedbe33e22691d200516bb557056b38f66478fc6d",
+    "lt": 54358383000001,
+    "account": {
+      "address": "0:e19dd3ec82e1a7f0b1024260b9325a6877ce65f58a6e54a03d82538073d73f75",
+      "is_scam": false,
+      "is_wallet": true
+    },
+    "success": true,
+    "utime": 1740585389,
+    "orig_status": "active",
+    "end_status": "active",
+    "total_fees": 3199581,
+    "end_balance": 0,
+    "transaction_type": "TransOrd",
+    "state_update_old": "198a979a462dd1213350f79c5b0e0852c90a8f3ec774e3cc57d9ae42202d0230",
+    "state_update_new": "c8e949e0111a9f76dd0ec27035a1bf1932c3523ce1e070f08b54e62d11ce3549",
+    "in_msg": {
+      "msg_type": "ext_in_msg",
+      "created_lt": 54358383000001,
+      "ihr_disabled": false,
+      "bounce": false,
+      "bounced": false,
+      "value": 0,
+      "fwd_fee": 0,
+      "ihr_fee": 0,
+      "destination": {
+        "address": "0:e19dd3ec82e1a7f0b1024260b9325a6877ce65f58a6e54a03d82538073d73f75",
+        "is_scam": false,
+        "is_wallet": true
+      },
+      "import_fee": 0,
+      "created_at": 0,
+      "op_code": "0xfefc5de0",
+      "hash": "83b5ba76db150f2d2d3ee06714f6c57689ffa77a51e96b6c97660cb4c6b04d16",
+      "raw_body": "b5ee9c720102040100017800019cfefc5de02cd5c672b4a1814584ce91e1bbd4c108d7482a6cb6966404f7881cf3abaadaf38eb4f73482d72bf4086db9152ee1183f2e7a71dfeafddc54de17d10f29a9a31767c8741c0000000a00030101cc62003946d1d1b5d7d4d78875cf10c46767d28331b39ff4f65e3623eabed97066e6732270a81c000000000000000000000000000001f3835d00002f534c9c9fe043b9aca00801c33ba7d905c34fe1620484c17264b4d0ef9ccbeb14dca9407b04a700e7ae7eeb0201e16664de2a8006653647c19bf02a0fb23ebc39457a01ea8e420e2e28dbef5104c78cf68d9331300386774fb20b869fc2c4090982e4c969a1df3997d629b95280f6094e01cf5cfdd60070cee9f64170d3f8588121305c992d343be732fac5372a501ec129c039eb9fba8000000033e43a0e4003008f101801c33ba7d905c34fe1620484c17264b4d0ef9ccbeb14dca9407b04a700e7ae7eea000005400e19dd3ec82e1a7f0b1024260b9325a6877ce65f58a6e54a03d82538073d73f758"
+    },
+    "out_msgs": [],
+    "block": "(0,0,0)",
+    "compute_phase": {
+      "skipped": false,
+      "success": true,
+      "gas_fees": 1323200,
+      "gas_used": 3308,
+      "vm_steps": 68,
+      "exit_code": 0,
+      "exit_code_description": "Ok"
+    },
+    "storage_phase": {
+      "fees_collected": 19855,
+      "status_change": "acst_unchanged"
+    },
+    "action_phase": {
+      "success": true,
+      "result_code": 0,
+      "total_actions": 1,
+      "skipped_actions": 0,
+      "fwd_fees": 1267600,
+      "total_fees": 422526
+    },
+    "aborted": false,
+    "destroyed": false,
+    "raw": "b5ee9c7201020d010003700003b57e19dd3ec82e1a7f0b1024260b9325a6877ce65f58a6e54a03d82538073d73f75000031704c1bf9c10000000000000000000000000000000000000000000000000000000000000000000000000000000067bf39ad00034661a4ba80102030201e00405008272198a979a462dd1213350f79c5b0e0852c90a8f3ec774e3cc57d9ae42202d0230c8e949e0111a9f76dd0ec27035a1bf1932c3523ce1e070f08b54e62d11ce354902110c9363c618a18604400b0c01e18801c33ba7d905c34fe1620484c17264b4d0ef9ccbeb14dca9407b04a700e7ae7eea07f7e2ef0166ae3395a50c0a2c26748f0ddea60846ba415365b4b32027bc40e79d5d56d79c75a7b9a416b95fa0436dc8a97708c1f973d38eff57eee2a6f0be88794d4d18bb3e43a0e000000050001c060101df0701cc62003946d1d1b5d7d4d78875cf10c46767d28331b39ff4f65e3623eabed97066e6732270a81c000000000000000000000000000001f3835d00002f534c9c9fe043b9aca00801c33ba7d905c34fe1620484c17264b4d0ef9ccbeb14dca9407b04a700e7ae7eeb0901b16801c33ba7d905c34fe1620484c17264b4d0ef9ccbeb14dca9407b04a700e7ae7eeb001ca368e8daebea6bc43ae7886233b3e94198d9cffa7b2f1b11f55f6cb83373399138540e000619ca24000062e09837f384cf7e735ac008016401f3835d00002f534c9c9fe043b9aca00801c33ba7d905c34fe1620484c17264b4d0ef9ccbeb14dca9407b04a700e7ae7eeb0901e16664de2a8006653647c19bf02a0fb23ebc39457a01ea8e420e2e28dbef5104c78cf68d9331300386774fb20b869fc2c4090982e4c969a1df3997d629b95280f6094e01cf5cfdd60070cee9f64170d3f8588121305c992d343be732fac5372a501ec129c039eb9fba8000000033e43a0e400a008f101801c33ba7d905c34fe1620484c17264b4d0ef9ccbeb14dca9407b04a700e7ae7eea000005400e19dd3ec82e1a7f0b1024260b9325a6877ce65f58a6e54a03d82538073d73f758009d419d8313880000000000000000110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000020006fc989abc84c19c9f80000000000020000000000029443d221e8b37ccd182b4cbaef0968824939bff80da7856c181bf0b6b304378e41105074"
+  },
+  "interfaces": [
+    "wallet_v4r2"
+  ],
+  "children": [
+    {
+      "transaction": {
+        "hash": "5816f58da840e2c293de1429a5e8384f6e273f7a29efff3f17e058b577f6dc73",
+        "lt": 54389637000003,
+        "account": {
+          "address": "0:728da3a36bafa9af10eb9e2188cecfa50663673fe9ecbc6c47d57db2e0cdcce6",
+          "is_scam": false,
+          "is_wallet": false
+        },
+        "success": true,
+        "utime": 1740585389,
+        "orig_status": "active",
+        "end_status": "active",
+        "total_fees": 3485727,
+        "end_balance": 0,
+        "transaction_type": "TransOrd",
+        "state_update_old": "33ce8fa046e268bf98077ed7a3edacbc4427392ea3a6d6be553012a2f94d71a1",
+        "state_update_new": "f5eff352ec0626ee79e1dd24308b0618fcc841452a5c47273eebf1eb2b1473b7",
+        "in_msg": {
+          "msg_type": "int_msg",
+          "created_lt": 54358383000002,
+          "ihr_disabled": true,
+          "bounce": true,
+          "bounced": false,
+          "value": 1310000000,
+          "fwd_fee": 845074,
+          "ihr_fee": 0,
+          "destination": {
+            "address": "0:728da3a36bafa9af10eb9e2188cecfa50663673fe9ecbc6c47d57db2e0cdcce6",
+            "is_scam": false,
+            "is_wallet": false
+          },
+          "source": {
+            "address": "0:e19dd3ec82e1a7f0b1024260b9325a6877ce65f58a6e54a03d82538073d73f75",
+            "is_scam": false,
+            "is_wallet": true
+          },
+          "import_fee": 0,
+          "created_at": 1740585389,
+          "op_code": "0x01f3835d",
+          "hash": "0000000000000000000000000000000000000000000000000000000000000000",
+          "raw_body": "b5ee9c720101030100f300016401f3835d00002f534c9c9fe043b9aca00801c33ba7d905c34fe1620484c17264b4d0ef9ccbeb14dca9407b04a700e7ae7eeb0101e16664de2a8006653647c19bf02a0fb23ebc39457a01ea8e420e2e28dbef5104c78cf68d9331300386774fb20b869fc2c4090982e4c969a1df3997d629b95280f6094e01cf5cfdd60070cee9f64170d3f8588121305c992d343be732fac5372a501ec129c039eb9fba8000000033e43a0e4002008f101801c33ba7d905c34fe1620484c17264b4d0ef9ccbeb14dca9407b04a700e7ae7eea000005400e19dd3ec82e1a7f0b1024260b9325a6877ce65f58a6e54a03d82538073d73f758",
+          "decoded_op_name": "pton_ton_transfer",
+          "decoded_body": {
+            "query_id": 52034814124000,
+            "ton_amount": "1000000000",
+            "refund_address": "0:e19dd3ec82e1a7f0b1024260b9325a6877ce65f58a6e54a03d82538073d73f75",
+            "forward_payload": {
+              "is_right": true,
+              "value": "b5ee9c720101020100be0001e16664de2a8006653647c19bf02a0fb23ebc39457a01ea8e420e2e28dbef5104c78cf68d9331300386774fb20b869fc2c4090982e4c969a1df3997d629b95280f6094e01cf5cfdd60070cee9f64170d3f8588121305c992d343be732fac5372a501ec129c039eb9fba8000000033e43a0e4001008f101801c33ba7d905c34fe1620484c17264b4d0ef9ccbeb14dca9407b04a700e7ae7eea000005400e19dd3ec82e1a7f0b1024260b9325a6877ce65f58a6e54a03d82538073d73f758"
+            }
+          }
+        },
+        "out_msgs": [],
+        "block": "(0,0,0)",
+        "compute_phase": {
+          "skipped": false,
+          "success": true,
+          "gas_fees": 3063200,
+          "gas_used": 7658,
+          "vm_steps": 184,
+          "exit_code": 0,
+          "exit_code_description": "Ok"
+        },
+        "storage_phase": {
+          "fees_collected": 1,
+          "status_change": "acst_unchanged"
+        },
+        "credit_phase": {
+          "fees_collected": 0,
+          "credit": 1310000000
+        },
+        "action_phase": {
+          "success": true,
+          "result_code": 0,
+          "total_actions": 2,
+          "skipped_actions": 0,
+          "fwd_fees": 1267600,
+          "total_fees": 422526
+        },
+        "aborted": false,
+        "destroyed": false,
+        "raw": "b5ee9c7201020d010003270003b57728da3a36bafa9af10eb9e2188cecfa50663673fe9ecbc6c47d57db2e0cdcce60000317792fe2b430000000000000000000000000000000000000000000000000000000000000000000000000000000067bf39ad0003466a603e80102030201e0040500827233ce8fa046e268bf98077ed7a3edacbc4427392ea3a6d6be553012a2f94d71a1f5eff352ec0626ee79e1dd24308b0618fcc841452a5c47273eebf1eb2b1473b70217044049138540e01865d7b4110b0c01b16801c33ba7d905c34fe1620484c17264b4d0ef9ccbeb14dca9407b04a700e7ae7eeb001ca368e8daebea6bc43ae7886233b3e94198d9cffa7b2f1b11f55f6cb83373399138540e000619ca24000062e09837f384cf7e735ac0060101df07016401f3835d00002f534c9c9fe043b9aca00801c33ba7d905c34fe1620484c17264b4d0ef9ccbeb14dca9407b04a700e7ae7eeb0901b16800e51b4746d75f535e21d73c43119d9f4a0cc6ce7fd3d978d88faafb65c19b99cd001c290461006fe3608d4c6998044081597c0b817fe46b17c59ddda6c035ab341e9048e0913c0619ca24000062ef25fc5688cf7e735ac00801647362d09c00002f534c9c9fe043b9aca00801c33ba7d905c34fe1620484c17264b4d0ef9ccbeb14dca9407b04a700e7ae7eeb0901e16664de2a8006653647c19bf02a0fb23ebc39457a01ea8e420e2e28dbef5104c78cf68d9331300386774fb20b869fc2c4090982e4c969a1df3997d629b95280f6094e01cf5cfdd60070cee9f64170d3f8588121305c992d343be732fac5372a501ec129c039eb9fba8000000033e43a0e400a008f101801c33ba7d905c34fe1620484c17264b4d0ef9ccbeb14dca9407b04a700e7ae7eea000005400e19dd3ec82e1a7f0b1024260b9325a6877ce65f58a6e54a03d82538073d73f758009e43bd4c3d09000000000000000000b800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000006fc989abc84c19c9f80000000000040002000000035a0c19daf5830fb982f589b59812267de04e5b9e4b5b519bd67b22b019a863a041105074"
+      },
+      "interfaces": [
+        "jetton_wallet"
+      ],
+      "children": [
+        {
+          "transaction": {
+            "hash": "8aa724c85fd78088a65879e046f8ee8655d93d1e27cb87c5063edd6ed3a17b33",
+            "lt": 54389637000011,
+            "account": {
+              "address": "0:70a4118401bf8d823531a66011020565f02e05ff91ac5f1677769b00d6acd07a",
+              "is_scam": false,
+              "is_wallet": false
+            },
+            "success": true,
+            "utime": 1740585389,
+            "orig_status": "active",
+            "end_status": "active",
+            "total_fees": 7903724,
+            "end_balance": 0,
+            "transaction_type": "TransOrd",
+            "state_update_old": "b057ac0b8e03e8c4a2b09005922568f292d9ff063a137f9cb60eb6901dce9252",
+            "state_update_new": "80c1c4c47d67851d1464744849634ecae9c2f6da9137adb200d2afdc6638becc",
+            "in_msg": {
+              "msg_type": "int_msg",
+              "created_lt": 54389637000004,
+              "ihr_disabled": true,
+              "bounce": true,
+              "bounced": false,
+              "value": 305669199,
+              "fwd_fee": 845074,
+              "ihr_fee": 0,
+              "destination": {
+                "address": "0:70a4118401bf8d823531a66011020565f02e05ff91ac5f1677769b00d6acd07a",
+                "is_scam": false,
+                "is_wallet": false
+              },
+              "source": {
+                "address": "0:728da3a36bafa9af10eb9e2188cecfa50663673fe9ecbc6c47d57db2e0cdcce6",
+                "is_scam": false,
+                "is_wallet": false
+              },
+              "import_fee": 0,
+              "created_at": 1740585389,
+              "op_code": "0x7362d09c",
+              "hash": "0000000000000000000000000000000000000000000000000000000000000000",
+              "raw_body": "b5ee9c720101030100f30001647362d09c00002f534c9c9fe043b9aca00801c33ba7d905c34fe1620484c17264b4d0ef9ccbeb14dca9407b04a700e7ae7eeb0101e16664de2a8006653647c19bf02a0fb23ebc39457a01ea8e420e2e28dbef5104c78cf68d9331300386774fb20b869fc2c4090982e4c969a1df3997d629b95280f6094e01cf5cfdd60070cee9f64170d3f8588121305c992d343be732fac5372a501ec129c039eb9fba8000000033e43a0e4002008f101801c33ba7d905c34fe1620484c17264b4d0ef9ccbeb14dca9407b04a700e7ae7eea000005400e19dd3ec82e1a7f0b1024260b9325a6877ce65f58a6e54a03d82538073d73f758",
+              "decoded_op_name": "jetton_notify",
+              "decoded_body": {
+                "query_id": 52034814124000,
+                "amount": "1000000000",
+                "sender": "0:e19dd3ec82e1a7f0b1024260b9325a6877ce65f58a6e54a03d82538073d73f75",
+                "forward_payload": {
+                  "is_right": true,
+                  "value": {
+                    "sum_type": "StonfiSwapV2",
+                    "op_code": 1717886506,
+                    "value": {
+                      "token_wallet1": "0:3329b23e0cdf81507d91f5e1ca2bd00f547210717146df7a88263c67b46c9989",
+                      "refund_address": "0:e19dd3ec82e1a7f0b1024260b9325a6877ce65f58a6e54a03d82538073d73f75",
+                      "excesses_address": "0:e19dd3ec82e1a7f0b1024260b9325a6877ce65f58a6e54a03d82538073d73f75",
+                      "tx_deadline": 1741190172,
+                      "cross_swap_body": {
+                        "min_out": "1",
+                        "receiver": "0:e19dd3ec82e1a7f0b1024260b9325a6877ce65f58a6e54a03d82538073d73f75",
+                        "fwd_gas": "0",
+                        "custom_payload": null,
+                        "refund_fwd_gas": "0",
+                        "refund_payload": null,
+                        "ref_fee": 10,
+                        "ref_address": "0:e19dd3ec82e1a7f0b1024260b9325a6877ce65f58a6e54a03d82538073d73f75"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "out_msgs": [],
+            "block": "(0,0,0)",
+            "compute_phase": {
+              "skipped": false,
+              "success": true,
+              "gas_fees": 7180400,
+              "gas_used": 17951,
+              "vm_steps": 461,
+              "exit_code": 0,
+              "exit_code_description": "Ok"
+            },
+            "storage_phase": {
+              "fees_collected": 2,
+              "status_change": "acst_unchanged"
+            },
+            "credit_phase": {
+              "fees_collected": 0,
+              "credit": 305669199
+            },
+            "action_phase": {
+              "success": true,
+              "result_code": 0,
+              "total_actions": 2,
+              "skipped_actions": 0,
+              "fwd_fees": 2170000,
+              "total_fees": 723322
+            },
+            "aborted": false,
+            "destroyed": false,
+            "raw": "b5ee9c720102130100040a0003b5770a4118401bf8d823531a66011020565f02e05ff91ac5f1677769b00d6acd07a0000317792fe2b4b0000000000000000000000000000000000000000000000000000000000000000000000000000000067bf39ad000346f133d880102030201e00405008272b057ac0b8e03e8c4a2b09005922568f292d9ff063a137f9cb60eb6901dce925280c1c4c47d67851d1464744849634ecae9c2f6da9137adb200d2afdc6638becc0217044089048e0913d86db20e11111201b16800e51b4746d75f535e21d73c43119d9f4a0cc6ce7fd3d978d88faafb65c19b99cd001c290461006fe3608d4c6998044081597c0b817fe46b17c59ddda6c035ab341e9048e0913c0619ca24000062ef25fc5688cf7e735ac0060101df0701647362d09c00002f534c9c9fe043b9aca00801c33ba7d905c34fe1620484c17264b4d0ef9ccbeb14dca9407b04a700e7ae7eeb0f02b16800e1482308037f1b046a634cc022040acbe05c0bff2358be2ceeed3601ad59a0f50008513cdce8cd2c3d7925094321a68f8cecdab18e49822f5af3e23403600562bd5046a5dd34062c262c000062ef25fc5698cf7e735be008090201340a0b01656664de2a00002f534c9c9fe0801c33ba7d905c34fe1620484c17264b4d0ef9ccbeb14dca9407b04a700e7ae7eea087735940100f084202a9338ecd624ca15d37e4a8d9bf677ddc9b84f0e98f05f2fb84c7afe332a281b4010d000000002800290c02c9800e1482308037f1b046a634cc022040acbe05c0bff2358be2ceeed3601ad59a0f5000cca6c8f8337e0541f647d78728af403d51c841c5c51b7dea2098f19ed1b26626003946d1d1b5d7d4d78875cf10c46767d28331b39ff4f65e3623eabed97066e673400d0e084202c00836440d084e44fb94316132ac5a21417ef4f429ee09b5560b5678b334c3e8084202c95a2ed22ab516f77f9d4898dc4578e72f18a2448e8f6832334b0b4bf501bc7901e16664de2a8006653647c19bf02a0fb23ebc39457a01ea8e420e2e28dbef5104c78cf68d9331300386774fb20b869fc2c4090982e4c969a1df3997d629b95280f6094e01cf5cfdd60070cee9f64170d3f8588121305c992d343be732fac5372a501ec129c039eb9fba8000000033e43a0e4010008f101801c33ba7d905c34fe1620484c17264b4d0ef9ccbeb14dca9407b04a700e7ae7eea000005400e19dd3ec82e1a7f0b1024260b9325a6877ce65f58a6e54a03d82538073d73f758009e48c3ec2ea4300000000000000001cd00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000006fc9908e484c2c25e8000000000004000200000003152993db29724583dd37f893d286fbbc15082f062609728b7ff852f532a4c9104290843c"
+          },
+          "interfaces": [
+            "stonfi_router_v2"
+          ],
+          "children": [
+            {
+              "transaction": {
+                "hash": "a2c35383ba27a9a9547f50ebd5ec2e1c5a5d60b0b9b5f23ddb93d7112441f315",
+                "lt": 54389637000013,
+                "account": {
+                  "address": "0:2144f373a334b0f5e494250c869a3e33b36ac6392608bd6bcf88d00d80158af5",
+                  "is_scam": false,
+                  "is_wallet": false
+                },
+                "success": true,
+                "utime": 1740585389,
+                "orig_status": "active",
+                "end_status": "active",
+                "total_fees": 8330947,
+                "end_balance": 0,
+                "transaction_type": "TransOrd",
+                "state_update_old": "372aaf533dfedaa2395878f351ab70489b6fbbc956db6c4ca9cc4d73325e44eb",
+                "state_update_new": "d200152597b52e8116c1d364dd01686288568d9595d126af974fb13597e75c5a",
+                "in_msg": {
+                  "msg_type": "int_msg",
+                  "created_lt": 54389637000012,
+                  "ihr_disabled": true,
+                  "bounce": true,
+                  "bounced": false,
+                  "value": 296318797,
+                  "fwd_fee": 1446678,
+                  "ihr_fee": 0,
+                  "destination": {
+                    "address": "0:2144f373a334b0f5e494250c869a3e33b36ac6392608bd6bcf88d00d80158af5",
+                    "is_scam": false,
+                    "is_wallet": false
+                  },
+                  "source": {
+                    "address": "0:70a4118401bf8d823531a66011020565f02e05ff91ac5f1677769b00d6acd07a",
+                    "is_scam": false,
+                    "is_wallet": false
+                  },
+                  "import_fee": 0,
+                  "created_at": 1740585389,
+                  "op_code": "0x6664de2a",
+                  "init": {
+                    "boc": "b5ee9c720101060100e1000201340102084202a9338ecd624ca15d37e4a8d9bf677ddc9b84f0e98f05f2fb84c7afe332a281b4010d000000002800290302c9800e1482308037f1b046a634cc022040acbe05c0bff2358be2ceeed3601ad59a0f5000cca6c8f8337e0541f647d78728af403d51c841c5c51b7dea2098f19ed1b26626003946d1d1b5d7d4d78875cf10c46767d28331b39ff4f65e3623eabed97066e673400405084202c00836440d084e44fb94316132ac5a21417ef4f429ee09b5560b5678b334c3e8084202c95a2ed22ab516f77f9d4898dc4578e72f18a2448e8f6832334b0b4bf501bc79",
+                    "interfaces": []
+                  },
+                  "hash": "0000000000000000000000000000000000000000000000000000000000000000",
+                  "raw_body": "b5ee9c720101030100f40001656664de2a00002f534c9c9fe0801c33ba7d905c34fe1620484c17264b4d0ef9ccbeb14dca9407b04a700e7ae7eea087735940100101e16664de2a8006653647c19bf02a0fb23ebc39457a01ea8e420e2e28dbef5104c78cf68d9331300386774fb20b869fc2c4090982e4c969a1df3997d629b95280f6094e01cf5cfdd60070cee9f64170d3f8588121305c992d343be732fac5372a501ec129c039eb9fba8000000033e43a0e4002008f101801c33ba7d905c34fe1620484c17264b4d0ef9ccbeb14dca9407b04a700e7ae7eea000005400e19dd3ec82e1a7f0b1024260b9325a6877ce65f58a6e54a03d82538073d73f758",
+                  "decoded_op_name": "stonfi_swap_v2",
+                  "decoded_body": {
+                    "query_id": 52034814124000,
+                    "from_user": "0:e19dd3ec82e1a7f0b1024260b9325a6877ce65f58a6e54a03d82538073d73f75",
+                    "left_amount": "0",
+                    "right_amount": "1000000000",
+                    "dex_payload": {
+                      "transferred_op": 1717886506,
+                      "token_wallet1": "0:3329b23e0cdf81507d91f5e1ca2bd00f547210717146df7a88263c67b46c9989",
+                      "refund_address": "0:e19dd3ec82e1a7f0b1024260b9325a6877ce65f58a6e54a03d82538073d73f75",
+                      "excesses_address": "0:e19dd3ec82e1a7f0b1024260b9325a6877ce65f58a6e54a03d82538073d73f75",
+                      "tx_deadline": 1741190172,
+                      "swap_body": {
+                        "min_out": "1",
+                        "receiver": "0:e19dd3ec82e1a7f0b1024260b9325a6877ce65f58a6e54a03d82538073d73f75",
+                        "fwd_gas": "0",
+                        "custom_payload": null,
+                        "refund_fwd_gas": "0",
+                        "refund_payload": null,
+                        "ref_fee": 10,
+                        "ref_address": "0:e19dd3ec82e1a7f0b1024260b9325a6877ce65f58a6e54a03d82538073d73f75"
+                      }
+                    }
+                  }
+                },
+                "out_msgs": [],
+                "block": "(0,0,0)",
+                "compute_phase": {
+                  "skipped": false,
+                  "success": true,
+                  "gas_fees": 7644000,
+                  "gas_used": 19110,
+                  "vm_steps": 536,
+                  "exit_code": 0,
+                  "exit_code_description": "Ok"
+                },
+                "storage_phase": {
+                  "fees_collected": 25,
+                  "status_change": "acst_unchanged"
+                },
+                "credit_phase": {
+                  "fees_collected": 0,
+                  "credit": 296318797
+                },
+                "action_phase": {
+                  "success": true,
+                  "result_code": 0,
+                  "total_actions": 3,
+                  "skipped_actions": 0,
+                  "fwd_fees": 2060800,
+                  "total_fees": 686922
+                },
+                "aborted": false,
+                "destroyed": false,
+                "raw": "b5ee9c720102190100059e0003b572144f373a334b0f5e494250c869a3e33b36ac6392608bd6bcf88d00d80158af50000317792fe2b4d0000000000000000000000000000000000000000000000000000000000000000000000000000000067bf39ad000546fe3d8680102030201e00405008272372aaf533dfedaa2395878f351ab70489b6fbbc956db6c4ca9cc4d73325e44ebd200152597b52e8116c1d364dd01686288568d9595d126af974fb13597e75c5a0217044649046a5dd3586e946c11171802b16800e1482308037f1b046a634cc022040acbe05c0bff2358be2ceeed3601ad59a0f50008513cdce8cd2c3d7925094321a68f8cecdab18e49822f5af3e23403600562bd5046a5dd34062c262c000062ef25fc5698cf7e735be006070201dd0f10020134080901656664de2a00002f534c9c9fe0801c33ba7d905c34fe1620484c17264b4d0ef9ccbeb14dca9407b04a700e7ae7eea087735940100d084202a9338ecd624ca15d37e4a8d9bf677ddc9b84f0e98f05f2fb84c7afe332a281b4010d000000002800290a02c9800e1482308037f1b046a634cc022040acbe05c0bff2358be2ceeed3601ad59a0f5000cca6c8f8337e0541f647d78728af403d51c841c5c51b7dea2098f19ed1b26626003946d1d1b5d7d4d78875cf10c46767d28331b39ff4f65e3623eabed97066e673400b0c084202c00836440d084e44fb94316132ac5a21417ef4f429ee09b5560b5678b334c3e8084202c95a2ed22ab516f77f9d4898dc4578e72f18a2448e8f6832334b0b4bf501bc7901e16664de2a8006653647c19bf02a0fb23ebc39457a01ea8e420e2e28dbef5104c78cf68d9331300386774fb20b869fc2c4090982e4c969a1df3997d629b95280f6094e01cf5cfdd60070cee9f64170d3f8588121305c992d343be732fac5372a501ec129c039eb9fba8000000033e43a0e400e008f101801c33ba7d905c34fe1620484c17264b4d0ef9ccbeb14dca9407b04a700e7ae7eea000005400e19dd3ec82e1a7f0b1024260b9325a6877ce65f58a6e54a03d82538073d73f758010120110101201401b168004289e6e7466961ebc9284a190d347c6766d58c724c117ad79f11a01b002b15eb001c290461006fe3608d4c6998044081597c0b817fe46b17c59ddda6c035ab341e9008b6598c0613b1b6000062ef25fc569ccf7e735ac012019d6338163200002f534c9c9fe0801c33ba7d905c34fe1620484c17264b4d0ef9ccbeb14dca9407b04a700e7ae7eeb00386774fb20b869fc2c4090982e4c969a1df3997d629b95280f6094e01cf5cfdd61300936017c5823e4068006653647c19bf02a0fb23ebc39457a01ea8e420e2e28dbef5104c78cf68d933121001ca368e8daebea6bc43ae7886233b3e94198d9cffa7b2f1b11f55f6cb8337339a01b168004289e6e7466961ebc9284a190d347c6766d58c724c117ad79f11a01b002b15eb001c290461006fe3608d4c6998044081597c0b817fe46b17c59ddda6c035ab341e903b9f2dc406163bb6000062ef25fc569ecf7e735ac01501e9657b54f500002f534c9c9fe0801c33ba7d905c34fe1620484c17264b4d0ef9ccbeb14dca9407b04a700e7ae7eeb00386774fb20b869fc2c4090982e4c969a1df3997d629b95280f6094e01cf5cfdd60070cee9f64170d3f8588121305c992d343be732fac5372a501ec129c039eb9fbae321b872a01600970705c94343c7081a8006653647c19bf02a0fb23ebc39457a01ea8e420e2e28dbef5104c78cf68d933121001ca368e8daebea6bc43ae7886233b3e94198d9cffa7b2f1b11f55f6cb8337339a0009e4954cc2d36f000000000000000021800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000006fc98fb9004c29ed2800000000000600020000000493802de3c869a1521e551d3d8e9ebeda894bea01ef680c15cd06446d659a77de41908214"
+              },
+              "interfaces": [
+                "jetton_master",
+                "stonfi_pool_v2"
+              ],
+              "children": [
+                {
+                  "transaction": {
+                    "hash": "63c4df2d3114781c45e328fecfba13fbf842d7b25cb918565d1ea8c596550d6e",
+                    "lt": 54389638000000,
+                    "account": {
+                      "address": "0:70a4118401bf8d823531a66011020565f02e05ff91ac5f1677769b00d6acd07a",
+                      "is_scam": false,
+                      "is_wallet": false
+                    },
+                    "success": true,
+                    "utime": 1740585389,
+                    "orig_status": "active",
+                    "end_status": "active",
+                    "total_fees": 6627594,
+                    "end_balance": 0,
+                    "transaction_type": "TransOrd",
+                    "state_update_old": "80c1c4c47d67851d1464744849634ecae9c2f6da9137adb200d2afdc6638becc",
+                    "state_update_new": "1f13afed9ff7894026b2996c4e576e8baa1cf14e1473ffc0f18b582cadac75ec",
+                    "in_msg": {
+                      "msg_type": "int_msg",
+                      "created_lt": 54389637000014,
+                      "ihr_disabled": true,
+                      "bounce": true,
+                      "bounced": false,
+                      "value": 36542051,
+                      "fwd_fee": 645339,
+                      "ihr_fee": 0,
+                      "destination": {
+                        "address": "0:70a4118401bf8d823531a66011020565f02e05ff91ac5f1677769b00d6acd07a",
+                        "is_scam": false,
+                        "is_wallet": false
+                      },
+                      "source": {
+                        "address": "0:2144f373a334b0f5e494250c869a3e33b36ac6392608bd6bcf88d00d80158af5",
+                        "is_scam": false,
+                        "is_wallet": false
+                      },
+                      "import_fee": 0,
+                      "created_at": 1740585389,
+                      "op_code": "0x63381632",
+                      "hash": "0000000000000000000000000000000000000000000000000000000000000000",
+                      "raw_body": "b5ee9c7201010201009e00019d6338163200002f534c9c9fe0801c33ba7d905c34fe1620484c17264b4d0ef9ccbeb14dca9407b04a700e7ae7eeb00386774fb20b869fc2c4090982e4c969a1df3997d629b95280f6094e01cf5cfdd60100936017c5823e4068006653647c19bf02a0fb23ebc39457a01ea8e420e2e28dbef5104c78cf68d933121001ca368e8daebea6bc43ae7886233b3e94198d9cffa7b2f1b11f55f6cb8337339a",
+                      "decoded_op_name": "stonfi_pay_vault_v2",
+                      "decoded_body": {
+                        "query_id": 52034814124000,
+                        "owner": "0:e19dd3ec82e1a7f0b1024260b9325a6877ce65f58a6e54a03d82538073d73f75",
+                        "excesses_address": "0:e19dd3ec82e1a7f0b1024260b9325a6877ce65f58a6e54a03d82538073d73f75",
+                        "additional_info": {
+                          "amount0_out": "1633566319622",
+                          "token0_address": "0:3329b23e0cdf81507d91f5e1ca2bd00f547210717146df7a88263c67b46c9989",
+                          "amount1_out": "0",
+                          "token1_address": "0:728da3a36bafa9af10eb9e2188cecfa50663673fe9ecbc6c47d57db2e0cdcce6"
+                        }
+                      }
+                    },
+                    "out_msgs": [],
+                    "block": "(0,0,0)",
+                    "prev_trans_hash": "8aa724c85fd78088a65879e046f8ee8655d93d1e27cb87c5063edd6ed3a17b33",
+                    "prev_trans_lt": 54389637000011,
+                    "compute_phase": {
+                      "skipped": false,
+                      "success": true,
+                      "gas_fees": 6242400,
+                      "gas_used": 15606,
+                      "vm_steps": 350,
+                      "exit_code": 0,
+                      "exit_code_description": "Ok"
+                    },
+                    "storage_phase": {
+                      "fees_collected": 0,
+                      "status_change": "acst_unchanged"
+                    },
+                    "credit_phase": {
+                      "fees_collected": 0,
+                      "credit": 36542051
+                    },
+                    "action_phase": {
+                      "success": true,
+                      "result_code": 0,
+                      "total_actions": 2,
+                      "skipped_actions": 0,
+                      "fwd_fees": 1155600,
+                      "total_fees": 385194
+                    },
+                    "aborted": false,
+                    "destroyed": false,
+                    "raw": "b5ee9c7201020f010003620003b5770a4118401bf8d823531a66011020565f02e05ff91ac5f1677769b00d6acd07a00003177930d6d808aa724c85fd78088a65879e046f8ee8655d93d1e27cb87c5063edd6ed3a17b330000317792fe2b4b67bf39ad000346ca421480102030201e0040500827280c1c4c47d67851d1464744849634ecae9c2f6da9137adb200d2afdc6638becc1f13afed9ff7894026b2996c4e576e8baa1cf14e1473ffc0f18b582cadac75ec02150409008b6598d86be80c110d0e01b168004289e6e7466961ebc9284a190d347c6766d58c724c117ad79f11a01b002b15eb001c290461006fe3608d4c6998044081597c0b817fe46b17c59ddda6c035ab341e9008b6598c0613b1b6000062ef25fc569ccf7e735ac0060101df08019d6338163200002f534c9c9fe0801c33ba7d905c34fe1620484c17264b4d0ef9ccbeb14dca9407b04a700e7ae7eeb00386774fb20b869fc2c4090982e4c969a1df3997d629b95280f6094e01cf5cfdd60700936017c5823e4068006653647c19bf02a0fb23ebc39457a01ea8e420e2e28dbef5104c78cf68d933121001ca368e8daebea6bc43ae7886233b3e94198d9cffa7b2f1b11f55f6cb8337339a02b16800e1482308037f1b046a634cc022040acbe05c0bff2358be2ceeed3601ad59a0f5003fefd507de671041ce617e0c096db9bb6119b3e608b7e7636ed846b66b5ca6235006f2cfcc061782cc000062ef261adb02cf7e735be0090a0201340b0c00670490f09b00002f534c9c9fe06017c5823e406801c33ba7d905c34fe1620484c17264b4d0ef9ccbeb14dca9407b04a700e7ae7eeb084202e874ac89ab826bb4403e5e7bdb8b95df3698d2e7187fa366246e98ce329ea61300c9801c33ba7d905c34fe1620484c17264b4d0ef9ccbeb14dca9407b04a700e7ae7eeb000cca6c8f8337e0541f647d78728af403d51c841c5c51b7dea2098f19ed1b2662600385208c200dfc6c11a98d330088102b2f81702ffc8d62f8b3bbb4d806b56683d04009e479ecc05936c00000000000000015e00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000006fc988d1084c1782a8000000000004000200000002fa8baeca241de5341a246a6185502bbf3316e18f36886b1f9758f7dcbdb8f78e4150449c"
+                  },
+                  "interfaces": [
+                    "stonfi_router_v2"
+                  ],
+                  "children": [
+                    {
+                      "transaction": {
+                        "hash": "cf01bbb2f265b2a01145ab753f78cac1011c8b823cfd52326341950b0b9b1e97",
+                        "lt": 54389638000002,
+                        "account": {
+                          "address": "0:ffbf541f799c41073985f83025b6e6ed8466cf9822df9d8dbb611ad9ad72988d",
+                          "is_scam": false,
+                          "is_wallet": true
+                        },
+                        "success": true,
+                        "utime": 1740585389,
+                        "orig_status": "nonexist",
+                        "end_status": "active",
+                        "total_fees": 2478131,
+                        "end_balance": 0,
+                        "transaction_type": "TransOrd",
+                        "state_update_old": "90aec8965afabb16ebc3cb9b408ebae71b618d78788bc80d09843593cac98da4",
+                        "state_update_new": "ff70b45b12809be02f8dcfa30448266b151cc2aea2cbce0c5acfe29622e0626f",
+                        "in_msg": {
+                          "msg_type": "int_msg",
+                          "created_lt": 54389638000001,
+                          "ihr_disabled": true,
+                          "bounce": true,
+                          "bounced": false,
+                          "value": 29144051,
+                          "fwd_fee": 770406,
+                          "ihr_fee": 0,
+                          "destination": {
+                            "address": "0:ffbf541f799c41073985f83025b6e6ed8466cf9822df9d8dbb611ad9ad72988d",
+                            "is_scam": false,
+                            "is_wallet": true
+                          },
+                          "source": {
+                            "address": "0:70a4118401bf8d823531a66011020565f02e05ff91ac5f1677769b00d6acd07a",
+                            "is_scam": false,
+                            "is_wallet": false
+                          },
+                          "import_fee": 0,
+                          "created_at": 1740585389,
+                          "op_code": "0x0490f09b",
+                          "init": {
+                            "boc": "b5ee9c7201010301008f000201340102084202e874ac89ab826bb4403e5e7bdb8b95df3698d2e7187fa366246e98ce329ea61300c9801c33ba7d905c34fe1620484c17264b4d0ef9ccbeb14dca9407b04a700e7ae7eeb000cca6c8f8337e0541f647d78728af403d51c841c5c51b7dea2098f19ed1b2662600385208c200dfc6c11a98d330088102b2f81702ffc8d62f8b3bbb4d806b56683d04",
+                            "interfaces": []
+                          },
+                          "hash": "0000000000000000000000000000000000000000000000000000000000000000",
+                          "raw_body": "b5ee9c720101010100360000670490f09b00002f534c9c9fe06017c5823e406801c33ba7d905c34fe1620484c17264b4d0ef9ccbeb14dca9407b04a700e7ae7eeb",
+                          "decoded_op_name": "stonfi_deposit_ref_fee_v2",
+                          "decoded_body": {
+                            "query_id": 52034814124000,
+                            "jetton_amount": "1633566319622",
+                            "excesses_address": "0:e19dd3ec82e1a7f0b1024260b9325a6877ce65f58a6e54a03d82538073d73f75"
+                          }
+                        },
+                        "out_msgs": [],
+                        "block": "(0,0,0)",
+                        "compute_phase": {
+                          "skipped": false,
+                          "success": true,
+                          "gas_fees": 2344800,
+                          "gas_used": 5862,
+                          "vm_steps": 137,
+                          "exit_code": 0,
+                          "exit_code_description": "Ok"
+                        },
+                        "storage_phase": {
+                          "fees_collected": 0,
+                          "status_change": "acst_unchanged"
+                        },
+                        "credit_phase": {
+                          "fees_collected": 0,
+                          "credit": 29144051
+                        },
+                        "action_phase": {
+                          "success": true,
+                          "result_code": 0,
+                          "total_actions": 2,
+                          "skipped_actions": 0,
+                          "fwd_fees": 400000,
+                          "total_fees": 133331
+                        },
+                        "aborted": false,
+                        "destroyed": false,
+                        "raw": "b5ee9c7201020d010002cf0003b57ffbf541f799c41073985f83025b6e6ed8466cf9822df9d8dbb611ad9ad72988d00003177930d6d820000000000000000000000000000000000000000000000000000000000000000000000000000000067bf39ad0003c64ba06680102030201e0040500827290aec8965afabb16ebc3cb9b408ebae71b618d78788bc80d09843593cac98da4ff70b45b12809be02f8dcfa30448266b151cc2aea2cbce0c5acfe29622e0626f02150409006f2cfcd86478ec110b0c02b16800e1482308037f1b046a634cc022040acbe05c0bff2358be2ceeed3601ad59a0f5003fefd507de671041ce617e0c096db9bb6119b3e608b7e7636ed846b66b5ca6235006f2cfcc061782cc000062ef261adb02cf7e735be006070101df0a020134080900670490f09b00002f534c9c9fe06017c5823e406801c33ba7d905c34fe1620484c17264b4d0ef9ccbeb14dca9407b04a700e7ae7eeb084202e874ac89ab826bb4403e5e7bdb8b95df3698d2e7187fa366246e98ce329ea61300c9801c33ba7d905c34fe1620484c17264b4d0ef9ccbeb14dca9407b04a700e7ae7eeb000cca6c8f8337e0541f647d78728af403d51c841c5c51b7dea2098f19ed1b2662600385208c200dfc6c11a98d330088102b2f81702ffc8d62f8b3bbb4d806b56683d0400c94801ff7ea83ef338820e730bf0604b6dcddb08cd9f3045bf3b1b76c235b35ae5311b00386774fb20b869fc2c4090982e4c969a1df3997d629b95280f6094e01cf5cfdd50060e3f4c0608235a000062ef261adb06cf7e735a6a993b6d800017a9a64e4ff040009e42dccc04727000000000000000008900000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000006fc9830d404c08234c0000000000040002000000028b0c02d19069dd058d6d5ed1ce944e0b478099714613b25a9a4d9da0faaaa65a4050190c"
+                      },
+                      "interfaces": [
+                        "stonfi_vault_v2"
+                      ],
+                      "children": [
+                        {
+                          "transaction": {
+                            "hash": "362accca9b503e466c759ad8bffee65da0ed3df868ba36cfa5e4d0e4be2bc088",
+                            "lt": 54389638000004,
+                            "account": {
+                              "address": "0:e19dd3ec82e1a7f0b1024260b9325a6877ce65f58a6e54a03d82538073d73f75",
+                              "is_scam": false,
+                              "is_wallet": true
+                            },
+                            "success": true,
+                            "utime": 1740585389,
+                            "orig_status": "active",
+                            "end_status": "active",
+                            "total_fees": 396400,
+                            "end_balance": 0,
+                            "transaction_type": "TransOrd",
+                            "state_update_old": "c8e949e0111a9f76dd0ec27035a1bf1932c3523ce1e070f08b54e62d11ce3549",
+                            "state_update_new": "7b77c3a0261540d4332bdd7d19b3be71a71967a3ef07363acf752d5fb2df05c4",
+                            "in_msg": {
+                              "msg_type": "int_msg",
+                              "created_lt": 54389638000003,
+                              "ihr_disabled": true,
+                              "bounce": false,
+                              "bounced": false,
+                              "value": 25399251,
+                              "fwd_fee": 266669,
+                              "ihr_fee": 0,
+                              "destination": {
+                                "address": "0:e19dd3ec82e1a7f0b1024260b9325a6877ce65f58a6e54a03d82538073d73f75",
+                                "is_scam": false,
+                                "is_wallet": true
+                              },
+                              "source": {
+                                "address": "0:ffbf541f799c41073985f83025b6e6ed8466cf9822df9d8dbb611ad9ad72988d",
+                                "is_scam": false,
+                                "is_wallet": true
+                              },
+                              "import_fee": 0,
+                              "created_at": 1740585389,
+                              "op_code": "0xd53276db",
+                              "hash": "0000000000000000000000000000000000000000000000000000000000000000",
+                              "raw_body": "b5ee9c7201010101000e000018d53276db00002f534c9c9fe0",
+                              "decoded_op_name": "excess",
+                              "decoded_body": {
+                                "query_id": 52034814124000
+                              }
+                            },
+                            "out_msgs": [],
+                            "block": "(0,0,0)",
+                            "prev_trans_hash": "7141841629ef8d804d8ec41eedbe33e22691d200516bb557056b38f66478fc6d",
+                            "prev_trans_lt": 54358383000001,
+                            "compute_phase": {
+                              "skipped": false,
+                              "success": true,
+                              "gas_fees": 396400,
+                              "gas_used": 991,
+                              "vm_steps": 29,
+                              "exit_code": 0,
+                              "exit_code_description": "Ok"
+                            },
+                            "storage_phase": {
+                              "fees_collected": 0,
+                              "status_change": "acst_unchanged"
+                            },
+                            "credit_phase": {
+                              "fees_collected": 0,
+                              "credit": 25399251
+                            },
+                            "action_phase": {
+                              "success": true,
+                              "result_code": 0,
+                              "total_actions": 0,
+                              "skipped_actions": 0,
+                              "fwd_fees": 0,
+                              "total_fees": 0
+                            },
+                            "aborted": false,
+                            "destroyed": false,
+                            "raw": "b5ee9c720102070100019d0003b57e19dd3ec82e1a7f0b1024260b9325a6877ce65f58a6e54a03d82538073d73f7500003177930d6d847141841629ef8d804d8ec41eedbe33e22691d200516bb557056b38f66478fc6d000031704c1bf9c167bf39ad0001460c18e080102030101a004008272c8e949e0111a9f76dd0ec27035a1bf1932c3523ce1e070f08b54e62d11ce35497b77c3a0261540d4332bdd7d19b3be71a71967a3ef07363acf752d5fb2df05c402150c090060e3f4d860c18e11050600c94801ff7ea83ef338820e730bf0604b6dcddb08cd9f3045bf3b1b76c235b35ae5311b00386774fb20b869fc2c4090982e4c969a1df3997d629b95280f6094e01cf5cfdd50060e3f4c0608235a000062ef261adb06cf7e735a6a993b6d800017a9a64e4ff040009c407bebe02800000000000000001d00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000005bc00000000000000000000000012d452da449e50b8cf7dd27861f146122afe1b546bb8b70fc8216f0c614139f8e04"
+                          },
+                          "interfaces": [
+                            "wallet_v4r2"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "transaction": {
+                    "hash": "00a5fa0a45270c90abd9bcc7e130d5cc9da65c02151759e0d247db56ec6c61d4",
+                    "lt": 54389639000000,
+                    "account": {
+                      "address": "0:70a4118401bf8d823531a66011020565f02e05ff91ac5f1677769b00d6acd07a",
+                      "is_scam": false,
+                      "is_wallet": false
+                    },
+                    "success": true,
+                    "utime": 1740585389,
+                    "orig_status": "active",
+                    "end_status": "active",
+                    "total_fees": 5610663,
+                    "end_balance": 0,
+                    "transaction_type": "TransOrd",
+                    "state_update_old": "1f13afed9ff7894026b2996c4e576e8baa1cf14e1473ffc0f18b582cadac75ec",
+                    "state_update_new": "08d62d4cd9f34f30d78c09eff0a0167179d87412674c9a72c4fba60f10fb0671",
+                    "in_msg": {
+                      "msg_type": "int_msg",
+                      "created_lt": 54389637000015,
+                      "ihr_disabled": true,
+                      "bounce": true,
+                      "bounced": false,
+                      "value": 250071921,
+                      "fwd_fee": 728539,
+                      "ihr_fee": 0,
+                      "destination": {
+                        "address": "0:70a4118401bf8d823531a66011020565f02e05ff91ac5f1677769b00d6acd07a",
+                        "is_scam": false,
+                        "is_wallet": false
+                      },
+                      "source": {
+                        "address": "0:2144f373a334b0f5e494250c869a3e33b36ac6392608bd6bcf88d00d80158af5",
+                        "is_scam": false,
+                        "is_wallet": false
+                      },
+                      "import_fee": 0,
+                      "created_at": 1740585389,
+                      "op_code": "0x657b54f5",
+                      "hash": "0000000000000000000000000000000000000000000000000000000000000000",
+                      "raw_body": "b5ee9c720101020100c60001e9657b54f500002f534c9c9fe0801c33ba7d905c34fe1620484c17264b4d0ef9ccbeb14dca9407b04a700e7ae7eeb00386774fb20b869fc2c4090982e4c969a1df3997d629b95280f6094e01cf5cfdd60070cee9f64170d3f8588121305c992d343be732fac5372a501ec129c039eb9fbae321b872a00100970705c94343c7081a8006653647c19bf02a0fb23ebc39457a01ea8e420e2e28dbef5104c78cf68d933121001ca368e8daebea6bc43ae7886233b3e94198d9cffa7b2f1b11f55f6cb8337339a0",
+                      "decoded_op_name": "stonfi_pay_to_v2",
+                      "decoded_body": {
+                        "query_id": 52034814124000,
+                        "to_address": "0:e19dd3ec82e1a7f0b1024260b9325a6877ce65f58a6e54a03d82538073d73f75",
+                        "excesses_address": "0:e19dd3ec82e1a7f0b1024260b9325a6877ce65f58a6e54a03d82538073d73f75",
+                        "original_caller": "0:e19dd3ec82e1a7f0b1024260b9325a6877ce65f58a6e54a03d82538073d73f75",
+                        "exit_code": 3326308581,
+                        "custom_payload": null,
+                        "additional_info": {
+                          "fwd_ton_amount": "0",
+                          "amount0_out": "1628665620662298",
+                          "token0_address": "0:3329b23e0cdf81507d91f5e1ca2bd00f547210717146df7a88263c67b46c9989",
+                          "amount1_out": "0",
+                          "token1_address": "0:728da3a36bafa9af10eb9e2188cecfa50663673fe9ecbc6c47d57db2e0cdcce6"
+                        }
+                      }
+                    },
+                    "out_msgs": [],
+                    "block": "(0,0,0)",
+                    "prev_trans_hash": "63c4df2d3114781c45e328fecfba13fbf842d7b25cb918565d1ea8c596550d6e",
+                    "prev_trans_lt": 54389638000000,
+                    "compute_phase": {
+                      "skipped": false,
+                      "success": true,
+                      "gas_fees": 5371200,
+                      "gas_used": 13428,
+                      "vm_steps": 319,
+                      "exit_code": 0,
+                      "exit_code_description": "Ok"
+                    },
+                    "storage_phase": {
+                      "fees_collected": 0,
+                      "status_change": "acst_unchanged"
+                    },
+                    "credit_phase": {
+                      "fees_collected": 0,
+                      "credit": 250071921
+                    },
+                    "action_phase": {
+                      "success": true,
+                      "result_code": 0,
+                      "total_actions": 2,
+                      "skipped_actions": 0,
+                      "fwd_fees": 718400,
+                      "total_fees": 239463
+                    },
+                    "aborted": false,
+                    "destroyed": false,
+                    "raw": "b5ee9c7201020c0100031d0003b5770a4118401bf8d823531a66011020565f02e05ff91ac5f1677769b00d6acd07a00003177931cafc063c4df2d3114781c45e328fecfba13fbf842d7b25cb918565d1ea8c596550d6e00003177930d6d8067bf39ad000346ab394e80102030201e004050082721f13afed9ff7894026b2996c4e576e8baa1cf14e1473ffc0f18b582cadac75ec08d62d4cd9f34f30d78c09eff0a0167179d87412674c9a72c4fba60f10fb06710215040903b9f2dc586a3ea8110a0b01b168004289e6e7466961ebc9284a190d347c6766d58c724c117ad79f11a01b002b15eb001c290461006fe3608d4c6998044081597c0b817fe46b17c59ddda6c035ab341e903b9f2dc406163bb6000062ef25fc569ecf7e735ac0060101df0801e9657b54f500002f534c9c9fe0801c33ba7d905c34fe1620484c17264b4d0ef9ccbeb14dca9407b04a700e7ae7eeb00386774fb20b869fc2c4090982e4c969a1df3997d629b95280f6094e01cf5cfdd60070cee9f64170d3f8588121305c992d343be732fac5372a501ec129c039eb9fbae321b872a00700970705c94343c7081a8006653647c19bf02a0fb23ebc39457a01ea8e420e2e28dbef5104c78cf68d933121001ca368e8daebea6bc43ae7886233b3e94198d9cffa7b2f1b11f55f6cb8337339a001b16800e1482308037f1b046a634cc022040acbe05c0bff2358be2ceeed3601ad59a0f5000cca6c8f8337e0541f647d78728af403d51c841c5c51b7dea2098f19ed1b2662503a2b7fc4060e9db2000062ef26395f82cf7e735ac00900ae0f8a7ea500002f534c9c9fe0705c94343c7081a801c33ba7d905c34fe1620484c17264b4d0ef9ccbeb14dca9407b04a700e7ae7eeb00386774fb20b869fc2c4090982e4c969a1df3997d629b95280f6094e01cf5cfdd40009e468e8c26286c00000000000000013f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000006fc9857b204c0e9d9c0000000000040002000000032808c3f6e5a8bc519ca33efe2e788bd21d97791c3adefe75511b902230fcc6ee40902bcc"
+                  },
+                  "interfaces": [
+                    "stonfi_router_v2"
+                  ],
+                  "children": [
+                    {
+                      "transaction": {
+                        "hash": "c059f6b69280af750b7ed01722afe906223a9c5431621a84def30b3fc14ed538",
+                        "lt": 54389639000002,
+                        "account": {
+                          "address": "0:3329b23e0cdf81507d91f5e1ca2bd00f547210717146df7a88263c67b46c9989",
+                          "is_scam": false,
+                          "is_wallet": false
+                        },
+                        "success": true,
+                        "utime": 1740585389,
+                        "orig_status": "active",
+                        "end_status": "active",
+                        "total_fees": 5597689,
+                        "end_balance": 0,
+                        "transaction_type": "TransOrd",
+                        "state_update_old": "3ab1daba7de2b2d5ab799530d167138bd05129917ec695294335837d63e19ba0",
+                        "state_update_new": "84550906faa6d8008285b8b07af8a1629da7c4e0f0dd913d6467fc2b3615132a",
+                        "in_msg": {
+                          "msg_type": "int_msg",
+                          "created_lt": 54389639000001,
+                          "ihr_disabled": true,
+                          "bounce": true,
+                          "bounced": false,
+                          "value": 243982321,
+                          "fwd_fee": 478937,
+                          "ihr_fee": 0,
+                          "destination": {
+                            "address": "0:3329b23e0cdf81507d91f5e1ca2bd00f547210717146df7a88263c67b46c9989",
+                            "is_scam": false,
+                            "is_wallet": false
+                          },
+                          "source": {
+                            "address": "0:70a4118401bf8d823531a66011020565f02e05ff91ac5f1677769b00d6acd07a",
+                            "is_scam": false,
+                            "is_wallet": false
+                          },
+                          "import_fee": 0,
+                          "created_at": 1740585389,
+                          "op_code": "0x0f8a7ea5",
+                          "hash": "0000000000000000000000000000000000000000000000000000000000000000",
+                          "raw_body": "b5ee9c720101010100590000ae0f8a7ea500002f534c9c9fe0705c94343c7081a801c33ba7d905c34fe1620484c17264b4d0ef9ccbeb14dca9407b04a700e7ae7eeb00386774fb20b869fc2c4090982e4c969a1df3997d629b95280f6094e01cf5cfdd40",
+                          "decoded_op_name": "jetton_transfer",
+                          "decoded_body": {
+                            "query_id": 52034814124000,
+                            "amount": "1628665620662298",
+                            "destination": "0:e19dd3ec82e1a7f0b1024260b9325a6877ce65f58a6e54a03d82538073d73f75",
+                            "response_destination": "0:e19dd3ec82e1a7f0b1024260b9325a6877ce65f58a6e54a03d82538073d73f75",
+                            "custom_payload": null,
+                            "forward_ton_amount": "0",
+                            "forward_payload": {
+                              "is_right": false,
+                              "value": {}
+                            }
+                          }
+                        },
+                        "out_msgs": [],
+                        "block": "(0,0,0)",
+                        "compute_phase": {
+                          "skipped": false,
+                          "success": true,
+                          "gas_fees": 3629200,
+                          "gas_used": 9073,
+                          "vm_steps": 214,
+                          "exit_code": 0,
+                          "exit_code_description": "Ok"
+                        },
+                        "storage_phase": {
+                          "fees_collected": 120,
+                          "status_change": "acst_unchanged"
+                        },
+                        "credit_phase": {
+                          "fees_collected": 0,
+                          "credit": 243982321
+                        },
+                        "action_phase": {
+                          "success": true,
+                          "result_code": 0,
+                          "total_actions": 1,
+                          "skipped_actions": 0,
+                          "fwd_fees": 5905200,
+                          "total_fees": 1968369
+                        },
+                        "aborted": false,
+                        "destroyed": false,
+                        "raw": "b5ee9c72010224010008200003b573329b23e0cdf81507d91f5e1ca2bd00f547210717146df7a88263c67b46c998900003177931cafc20000000000000000000000000000000000000000000000000000000000000000000000000000000067bf39ad000346aad3f280102030201e004050082723ab1daba7de2b2d5ab799530d167138bd05129917ec695294335837d63e19ba084550906faa6d8008285b8b07af8a1629da7c4e0f0dd913d6467fc2b3615132a0217045e0903a2b7fc5866ec1211222301b16800e1482308037f1b046a634cc022040acbe05c0bff2358be2ceeed3601ad59a0f5000cca6c8f8337e0541f647d78728af403d51c841c5c51b7dea2098f19ed1b2662503a2b7fc4060e9db2000062ef26395f82cf7e735ac0060101df0700ae0f8a7ea500002f534c9c9fe0705c94343c7081a801c33ba7d905c34fe1620484c17264b4d0ef9ccbeb14dca9407b04a700e7ae7eeb00386774fb20b869fc2c4090982e4c969a1df3997d629b95280f6094e01cf5cfdd4002b168006653647c19bf02a0fb23ebc39457a01ea8e420e2e28dbef5104c78cf68d93313000eab62f74d3a303f7d162015ea9e31ffc8c64255f80c4e9758dcf08ca96d63301037e590c40678247e000062ef26395f86cf7e735be008090201340a0b00ad178d451900002f534c9c9fe0705c94343c7081a800e1482308037f1b046a634cc022040acbe05c0bff2358be2ceeed3601ad59a0f500386774fb20b869fc2c4090982e4c969a1df3997d629b95280f6094e01cf5cfdd410114ff00f4a413f4bcf2c80b0c008700801c33ba7d905c34fe1620484c17264b4d0ef9ccbeb14dca9407b04a700e7ae7eeb0003c91dd4a13652a20f17dd344905c2fb434411d7f0781116d03cabdffb16ec5e20201620d0e0202ca0f100201201e1f01f7d407434c0c05c6c239444d7c0e00835c87b513434c0fe803e903e90344134c7c06103c8608405e351466e88a0841ef765f7aeac40a0841a3a1c3fae84ac7cbd201035c87e800c04a81004c0f232c0d63e808073c58073c5b27b55383e903e900c7e800c7d007e800c7e80004c5c3e0e80b4c7c048208403e29fa96ea110203a1c01b1c04b08e85303459db3ce033228210178d4519ba8e84325adb3ce034218210595f07bcba8e843101db3ce0218210d372158cba925f04e0218210742b36d8ba943101f026e02182109d65e47aba943101f027e0328210a8ce3fe7ba1213141501de03d33f0101fa00fa4021fa4430c000f2e14ded44d0d303fa00fa40fa40d1521ac705f2e0495115a120c2fff2af22c001f2e2c6f82a54259070546004131503c8cb0358fa0201cf1601cf16c921c8cb0113f40012f400cb00c920f9007074c8cb02ca07cbffc9d004fa40f401fa00201604f4ed44d0d303fa00fa40fa40d107d33f0101fa005141a004fa40fa4053bac705f82a5464e070546004131503c8cb0358fa0201cf1601cf16c921c8cb0113f40012f400cb00c9f9007074c8cb02ca07cbffc9d0500cc70552b0b1f2e2c9fa0021925b32e30d21d70b01c000b3951037365f03e30d04925b71e30d0318191a1d01f2ed44d0d303fa00fa40fa40d106d33f0101fa00fa40f401d15141a15238c705f2e04926c2fff2afc882107bdd97de01cb1f5801cb3f01fa0221cf1658cf16c9c8801801cb0526cf1670fa02017158cb6accc903f839206e943081169fde718102f270f8380170f836a0811a6570f836a0bcf2b0028050fb00031d00ac8e4eed44d0d303fa00fa40fa40d13304d33f01315224c705f2e2c38010c8cb0524cf1670fa027001cb6a8210d53276db01cb1f500301cb3fc98040fb0071503303c8cb0358fa0201cf1601cf16c9ed54e05b840ff2f0019820d70b009ad74bc00101c001b0f2b19130e2c88210178d451901cb1f500a01cb3f5008fa0223cf1601cf1626fa025007cf16c9c8801801cb055004cf1670fa024063775003cb6bccccc945371700b42191729171e2f839206e938123399120e2216e94318128099101e25023a813a0738103a370f83ca00270f83612a00170f836a07381040982100966018070f837a0bcf2b0048050fb005803c8cb0358fa0201cf1601cf16c9ed540066c882107362d09c01cb1f2601cb3f5005fa0223cf165004cf16c9c8801001cb0526cf165004fa0250037158cb6accc98011fb00007a5076a1f82fa07381040982100966018070f837b60972fb02c8801001cb055006cf1670fa027001cb6a8210d53276db01cb1f500501cb3fc9810082fb0000105114c705923071de01eb3b513434c0fe803e903e903441b4cffe803e803d010c1454a8549271c17cb8b049f0bffcb8b081be0e481ba50c2045a7f79c6040bc9c3e0e005c3e0da82046995c3e0da82f3cac20841a3a1c3fb232c7c4b2cfc07e8094013e8088f3c5bd00325c60063232c149b3c59c3e80b2dab33260143ec000e01d00cb3b513434c0fe803e903e90344c8174cfcc149571c17cb8b04070003cb8c2407e0e481ba50c2045a7f79c6040bc9c3e0e005c3e0da82046995c3e0da82f3cac208413560d527232c7c4b2cfd633c5b25c60063232c15400f3c59c3e8084b2dab33260143ec020002003c8cb0358fa0201cf1601cf16c9ed54020397d020210021bc508f6a2686981fd007d207d2068af81c0023a781da89a1a607f401f481f481a2be0780030025a605da89a1a607f401f481f481a267f0548261009e446e2c253a8c0000000000000000d600000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000006fc9ad0d984c7823c4000000000002000000000003edc5b391b3a6278796055a8e85e0ee5466f9cc64455949be2e743a88747eed8446d172ec"
+                      },
+                      "interfaces": [
+                        "jetton_wallet"
+                      ],
+                      "children": [
+                        {
+                          "transaction": {
+                            "hash": "bc83fdcd1109861932fbd0ab98ac578353132f5fba7668bff2d663c70ff44a54",
+                            "lt": 54389639000004,
+                            "account": {
+                              "address": "0:3aad8bdd34e8c0fdf4588057aa78c7ff23190957e0313a5d6373c232a5b58cc0",
+                              "is_scam": false,
+                              "is_wallet": true
+                            },
+                            "success": true,
+                            "utime": 1740585389,
+                            "orig_status": "nonexist",
+                            "end_status": "active",
+                            "total_fees": 3373731,
+                            "end_balance": 0,
+                            "transaction_type": "TransOrd",
+                            "state_update_old": "90aec8965afabb16ebc3cb9b408ebae71b618d78788bc80d09843593cac98da4",
+                            "state_update_new": "7647b23c5a1b31835cbe1dd87f8ab26df6522e80a977e277de863557a082bc57",
+                            "in_msg": {
+                              "msg_type": "int_msg",
+                              "created_lt": 54389639000003,
+                              "ihr_disabled": true,
+                              "bounce": true,
+                              "bounced": false,
+                              "value": 234447921,
+                              "fwd_fee": 3936831,
+                              "ihr_fee": 0,
+                              "destination": {
+                                "address": "0:3aad8bdd34e8c0fdf4588057aa78c7ff23190957e0313a5d6373c232a5b58cc0",
+                                "is_scam": false,
+                                "is_wallet": true
+                              },
+                              "source": {
+                                "address": "0:3329b23e0cdf81507d91f5e1ca2bd00f547210717146df7a88263c67b46c9989",
+                                "is_scam": false,
+                                "is_wallet": false
+                              },
+                              "import_fee": 0,
+                              "created_at": 1740585389,
+                              "op_code": "0x178d4519",
+                              "init": {
+                                "boc": "b5ee9c720102190100056e0002013401020114ff00f4a413f4bcf2c80b03008700801c33ba7d905c34fe1620484c17264b4d0ef9ccbeb14dca9407b04a700e7ae7eeb0003c91dd4a13652a20f17dd344905c2fb434411d7f0781116d03cabdffb16ec5e202016204050202ca0607020120151601f7d407434c0c05c6c239444d7c0e00835c87b513434c0fe803e903e90344134c7c06103c8608405e351466e88a0841ef765f7aeac40a0841a3a1c3fae84ac7cbd201035c87e800c04a81004c0f232c0d63e808073c58073c5b27b55383e903e900c7e800c7d007e800c7e80004c5c3e0e80b4c7c048208403e29fa96ea080203a1c0121304b08e85303459db3ce033228210178d4519ba8e84325adb3ce034218210595f07bcba8e843101db3ce0218210d372158cba925f04e0218210742b36d8ba943101f026e02182109d65e47aba943101f027e0328210a8ce3fe7ba090a0b0c01de03d33f0101fa00fa4021fa4430c000f2e14ded44d0d303fa00fa40fa40d1521ac705f2e0495115a120c2fff2af22c001f2e2c6f82a54259070546004131503c8cb0358fa0201cf1601cf16c921c8cb0113f40012f400cb00c920f9007074c8cb02ca07cbffc9d004fa40f401fa00200d04f4ed44d0d303fa00fa40fa40d107d33f0101fa005141a004fa40fa4053bac705f82a5464e070546004131503c8cb0358fa0201cf1601cf16c921c8cb0113f40012f400cb00c9f9007074c8cb02ca07cbffc9d0500cc70552b0b1f2e2c9fa0021925b32e30d21d70b01c000b3951037365f03e30d04925b71e30d030f10111401f2ed44d0d303fa00fa40fa40d106d33f0101fa00fa40f401d15141a15238c705f2e04926c2fff2afc882107bdd97de01cb1f5801cb3f01fa0221cf1658cf16c9c8801801cb0526cf1670fa02017158cb6accc903f839206e943081169fde718102f270f8380170f836a0811a6570f836a0bcf2b0028050fb00031400ac8e4eed44d0d303fa00fa40fa40d13304d33f01315224c705f2e2c38010c8cb0524cf1670fa027001cb6a8210d53276db01cb1f500301cb3fc98040fb0071503303c8cb0358fa0201cf1601cf16c9ed54e05b840ff2f0019820d70b009ad74bc00101c001b0f2b19130e2c88210178d451901cb1f500a01cb3f5008fa0223cf1601cf1626fa025007cf16c9c8801801cb055004cf1670fa024063775003cb6bccccc945370e00b42191729171e2f839206e938123399120e2216e94318128099101e25023a813a0738103a370f83ca00270f83612a00170f836a07381040982100966018070f837a0bcf2b0048050fb005803c8cb0358fa0201cf1601cf16c9ed540066c882107362d09c01cb1f2601cb3f5005fa0223cf165004cf16c9c8801001cb0526cf165004fa0250037158cb6accc98011fb00007a5076a1f82fa07381040982100966018070f837b60972fb02c8801001cb055006cf1670fa027001cb6a8210d53276db01cb1f500501cb3fc9810082fb0000105114c705923071de01eb3b513434c0fe803e903e903441b4cffe803e803d010c1454a8549271c17cb8b049f0bffcb8b081be0e481ba50c2045a7f79c6040bc9c3e0e005c3e0da82046995c3e0da82f3cac20841a3a1c3fb232c7c4b2cfc07e8094013e8088f3c5bd00325c60063232c149b3c59c3e80b2dab33260143ec000e01400cb3b513434c0fe803e903e90344c8174cfcc149571c17cb8b04070003cb8c2407e0e481ba50c2045a7f79c6040bc9c3e0e005c3e0da82046995c3e0da82f3cac208413560d527232c7c4b2cfd633c5b25c60063232c15400f3c59c3e8084b2dab33260143ec020002003c8cb0358fa0201cf1601cf16c9ed54020397d017180021bc508f6a2686981fd007d207d2068af81c0023a781da89a1a607f401f481f481a2be0780030025a605da89a1a607f401f481f481a267f0548261",
+                                "interfaces": []
+                              },
+                              "hash": "0000000000000000000000000000000000000000000000000000000000000000",
+                              "raw_body": "b5ee9c720101010100590000ad178d451900002f534c9c9fe0705c94343c7081a800e1482308037f1b046a634cc022040acbe05c0bff2358be2ceeed3601ad59a0f500386774fb20b869fc2c4090982e4c969a1df3997d629b95280f6094e01cf5cfdd41",
+                              "decoded_op_name": "jetton_internal_transfer",
+                              "decoded_body": {
+                                "query_id": 52034814124000,
+                                "amount": "1628665620662298",
+                                "from": "0:70a4118401bf8d823531a66011020565f02e05ff91ac5f1677769b00d6acd07a",
+                                "response_address": "0:e19dd3ec82e1a7f0b1024260b9325a6877ce65f58a6e54a03d82538073d73f75",
+                                "forward_ton_amount": "0",
+                                "forward_payload": {
+                                  "is_right": false,
+                                  "value": {}
+                                }
+                              }
+                            },
+                            "out_msgs": [],
+                            "block": "(0,0,0)",
+                            "compute_phase": {
+                              "skipped": false,
+                              "success": true,
+                              "gas_fees": 3240400,
+                              "gas_used": 8101,
+                              "vm_steps": 167,
+                              "exit_code": 0,
+                              "exit_code_description": "Ok"
+                            },
+                            "storage_phase": {
+                              "fees_collected": 0,
+                              "status_change": "acst_unchanged"
+                            },
+                            "credit_phase": {
+                              "fees_collected": 0,
+                              "credit": 234447921
+                            },
+                            "action_phase": {
+                              "success": true,
+                              "result_code": 0,
+                              "total_actions": 2,
+                              "skipped_actions": 0,
+                              "fwd_fees": 400000,
+                              "total_fees": 133331
+                            },
+                            "aborted": false,
+                            "destroyed": false,
+                            "raw": "b5ee9c72010223010007d10003b573aad8bdd34e8c0fdf4588057aa78c7ff23190957e0313a5d6373c232a5b58cc000003177931cafc40000000000000000000000000000000000000000000000000000000000000000000000000000000067bf39ad0003c666f54680102030201e0040500827290aec8965afabb16ebc3cb9b408ebae71b618d78788bc80d09843593cac98da47647b23c5a1b31835cbe1dd87f8ab26df6522e80a977e277de863557a082bc5702150409037e590c58662e3a11212202b168006653647c19bf02a0fb23ebc39457a01ea8e420e2e28dbef5104c78cf68d93313000eab62f74d3a303f7d162015ea9e31ffc8c64255f80c4e9758dcf08ca96d63301037e590c40678247e000062ef26395f86cf7e735be006070101df20020134080900ad178d451900002f534c9c9fe0705c94343c7081a800e1482308037f1b046a634cc022040acbe05c0bff2358be2ceeed3601ad59a0f500386774fb20b869fc2c4090982e4c969a1df3997d629b95280f6094e01cf5cfdd410114ff00f4a413f4bcf2c80b0a008700801c33ba7d905c34fe1620484c17264b4d0ef9ccbeb14dca9407b04a700e7ae7eeb0003c91dd4a13652a20f17dd344905c2fb434411d7f0781116d03cabdffb16ec5e20201620b0c0202ca0d0e0201201c1d01f7d407434c0c05c6c239444d7c0e00835c87b513434c0fe803e903e90344134c7c06103c8608405e351466e88a0841ef765f7aeac40a0841a3a1c3fae84ac7cbd201035c87e800c04a81004c0f232c0d63e808073c58073c5b27b55383e903e900c7e800c7d007e800c7e80004c5c3e0e80b4c7c048208403e29fa96ea0f0203a1c0191a04b08e85303459db3ce033228210178d4519ba8e84325adb3ce034218210595f07bcba8e843101db3ce0218210d372158cba925f04e0218210742b36d8ba943101f026e02182109d65e47aba943101f027e0328210a8ce3fe7ba1011121301de03d33f0101fa00fa4021fa4430c000f2e14ded44d0d303fa00fa40fa40d1521ac705f2e0495115a120c2fff2af22c001f2e2c6f82a54259070546004131503c8cb0358fa0201cf1601cf16c921c8cb0113f40012f400cb00c920f9007074c8cb02ca07cbffc9d004fa40f401fa00201404f4ed44d0d303fa00fa40fa40d107d33f0101fa005141a004fa40fa4053bac705f82a5464e070546004131503c8cb0358fa0201cf1601cf16c921c8cb0113f40012f400cb00c9f9007074c8cb02ca07cbffc9d0500cc70552b0b1f2e2c9fa0021925b32e30d21d70b01c000b3951037365f03e30d04925b71e30d031617181b01f2ed44d0d303fa00fa40fa40d106d33f0101fa00fa40f401d15141a15238c705f2e04926c2fff2afc882107bdd97de01cb1f5801cb3f01fa0221cf1658cf16c9c8801801cb0526cf1670fa02017158cb6accc903f839206e943081169fde718102f270f8380170f836a0811a6570f836a0bcf2b0028050fb00031b00ac8e4eed44d0d303fa00fa40fa40d13304d33f01315224c705f2e2c38010c8cb0524cf1670fa027001cb6a8210d53276db01cb1f500301cb3fc98040fb0071503303c8cb0358fa0201cf1601cf16c9ed54e05b840ff2f0019820d70b009ad74bc00101c001b0f2b19130e2c88210178d451901cb1f500a01cb3f5008fa0223cf1601cf1626fa025007cf16c9c8801801cb055004cf1670fa024063775003cb6bccccc945371500b42191729171e2f839206e938123399120e2216e94318128099101e25023a813a0738103a370f83ca00270f83612a00170f836a07381040982100966018070f837a0bcf2b0048050fb005803c8cb0358fa0201cf1601cf16c9ed540066c882107362d09c01cb1f2601cb3f5005fa0223cf165004cf16c9c8801001cb0526cf165004fa0250037158cb6accc98011fb00007a5076a1f82fa07381040982100966018070f837b60972fb02c8801001cb055006cf1670fa027001cb6a8210d53276db01cb1f500501cb3fc9810082fb0000105114c705923071de01eb3b513434c0fe803e903e903441b4cffe803e803d010c1454a8549271c17cb8b049f0bffcb8b081be0e481ba50c2045a7f79c6040bc9c3e0e005c3e0da82046995c3e0da82f3cac20841a3a1c3fb232c7c4b2cfc07e8094013e8088f3c5bd00325c60063232c149b3c59c3e80b2dab33260143ec000e01b00cb3b513434c0fe803e903e90344c8174cfcc149571c17cb8b04070003cb8c2407e0e481ba50c2045a7f79c6040bc9c3e0e005c3e0da82046995c3e0da82f3cac208413560d527232c7c4b2cfd633c5b25c60063232c15400f3c59c3e8084b2dab33260143ec020002003c8cb0358fa0201cf1601cf16c9ed54020397d01e1f0021bc508f6a2686981fd007d207d2068af81c0023a781da89a1a607f401f481f481a2be0780030025a605da89a1a607f401f481f481a267f054826100c94800755b17ba69d181fbe8b100af54f18ffe463212afc06274bac6e784654b6b198100386774fb20b869fc2c4090982e4c969a1df3997d629b95280f6094e01cf5cfdd50359366500608235a000062ef26395f8acf7e735a6a993b6d800017a9a64e4ff040009e43f4ac23c61c0000000000000000a700000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000006fc9830d404c08234c0000000000040002000000024de17a24468c7f98545ea730fcbaefea2b65820bf299c6cb27d86f96bc675da04050190c"
+                          },
+                          "interfaces": [
+                            "jetton_wallet"
+                          ],
+                          "children": [
+                            {
+                              "transaction": {
+                                "hash": "92e9d9fbc322d3848d8b7996092fb1794e212dcd9834f720263a9f54cd01a795",
+                                "lt": 54389639000006,
+                                "account": {
+                                  "address": "0:e19dd3ec82e1a7f0b1024260b9325a6877ce65f58a6e54a03d82538073d73f75",
+                                  "is_scam": false,
+                                  "is_wallet": true
+                                },
+                                "success": true,
+                                "utime": 1740585389,
+                                "orig_status": "active",
+                                "end_status": "active",
+                                "total_fees": 396400,
+                                "end_balance": 0,
+                                "transaction_type": "TransOrd",
+                                "state_update_old": "7b77c3a0261540d4332bdd7d19b3be71a71967a3ef07363acf752d5fb2df05c4",
+                                "state_update_new": "77c0d99224160337e9173a5d938b7162acf3e7d1dae9da10a9b98964e39b36e2",
+                                "in_msg": {
+                                  "msg_type": "int_msg",
+                                  "created_lt": 54389639000005,
+                                  "ihr_disabled": true,
+                                  "bounce": false,
+                                  "bounced": false,
+                                  "value": 224713108,
+                                  "fwd_fee": 266669,
+                                  "ihr_fee": 0,
+                                  "destination": {
+                                    "address": "0:e19dd3ec82e1a7f0b1024260b9325a6877ce65f58a6e54a03d82538073d73f75",
+                                    "is_scam": false,
+                                    "is_wallet": true
+                                  },
+                                  "source": {
+                                    "address": "0:3aad8bdd34e8c0fdf4588057aa78c7ff23190957e0313a5d6373c232a5b58cc0",
+                                    "is_scam": false,
+                                    "is_wallet": true
+                                  },
+                                  "import_fee": 0,
+                                  "created_at": 1740585389,
+                                  "op_code": "0xd53276db",
+                                  "hash": "0000000000000000000000000000000000000000000000000000000000000000",
+                                  "raw_body": "b5ee9c7201010101000e000018d53276db00002f534c9c9fe0",
+                                  "decoded_op_name": "excess",
+                                  "decoded_body": {
+                                    "query_id": 52034814124000
+                                  }
+                                },
+                                "out_msgs": [],
+                                "block": "(0,0,0)",
+                                "prev_trans_hash": "362accca9b503e466c759ad8bffee65da0ed3df868ba36cfa5e4d0e4be2bc088",
+                                "prev_trans_lt": 54389638000004,
+                                "compute_phase": {
+                                  "skipped": false,
+                                  "success": true,
+                                  "gas_fees": 396400,
+                                  "gas_used": 991,
+                                  "vm_steps": 29,
+                                  "exit_code": 0,
+                                  "exit_code_description": "Ok"
+                                },
+                                "storage_phase": {
+                                  "fees_collected": 0,
+                                  "status_change": "acst_unchanged"
+                                },
+                                "credit_phase": {
+                                  "fees_collected": 0,
+                                  "credit": 224713108
+                                },
+                                "action_phase": {
+                                  "success": true,
+                                  "result_code": 0,
+                                  "total_actions": 0,
+                                  "skipped_actions": 0,
+                                  "fwd_fees": 0,
+                                  "total_fees": 0
+                                },
+                                "aborted": false,
+                                "destroyed": false,
+                                "raw": "b5ee9c720102070100019e0003b57e19dd3ec82e1a7f0b1024260b9325a6877ce65f58a6e54a03d82538073d73f7500003177931cafc6362accca9b503e466c759ad8bffee65da0ed3df868ba36cfa5e4d0e4be2bc08800003177930d6d8467bf39ad0001460c18e080102030101a0040082727b77c3a0261540d4332bdd7d19b3be71a71967a3ef07363acf752d5fb2df05c477c0d99224160337e9173a5d938b7162acf3e7d1dae9da10a9b98964e39b36e202150c09035936651860c18e11050600c94800755b17ba69d181fbe8b100af54f18ffe463212afc06274bac6e784654b6b198100386774fb20b869fc2c4090982e4c969a1df3997d629b95280f6094e01cf5cfdd50359366500608235a000062ef26395f8acf7e735a6a993b6d800017a9a64e4ff040009e407bec2249d800000000000000001d00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000005bc00000000000000000000000012d452da449e50b8cf7dd27861f146122afe1b546bb8b70fc8216f0c614139f8e04"
+                              },
+                              "interfaces": [
+                                "wallet_v4r2"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
